@@ -1,0 +1,54 @@
+body, h1, h2, h3, p {
+    font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+header h1, .header-content, nav ul,div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 35px;
+}
+    p,label{
+    font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    font-size:large;
+    margin-bottom: 15px;
+}
+input {
+    width: 60px;   /* Ancho del input */
+    height:30px;   /* Alto del input */
+    font-size:medium;
+    justify-content: center;
+}
+button {
+    background-color: #ac38aa;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    animation: bounce 2s infinite;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+a,div .text-center{
+    margin-bottom: 15px;
+    animation: bounce 2s infinite;
+    padding: 0; 
+    font-size:x-large;
+}
+.btn btn-primary mx-2 {
+border-radius: 10px;
+
+}
+
+
