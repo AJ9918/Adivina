@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JUEGO DE ADVINANZAS </title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="imag/css/estilos.css">
+    <link rel="icon" href="imag/VIDEOJUEGO.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+</head>
+<header>
+    <div class="header-content">
+        <h1><span>¡ JUEGA AQUÍ EL ADIVINANDO EL NUMERO ! </span> </h1>
+        <img src="/imag/VICIADO.gif" class="rounded mx-auto d-block" alt="...">
+    </div>
+</header>
+<main>
+    <section id="contenido">
+        <h2>REGLAS</h2>
+        <p>Adivina el Número es un juego en el que tienes que utilizar tu lógica para adivinar un número secreto del 1 al 10 que el ordenador escoge al principio del partido. El número está formado por dígitos del 0 al 9; cada dígito aparece una vez como máximo.
+
+            Adivinas el número a través de solo 3 intentos. Un intento consta de un número propuesto, que tú selectas, y la respuesta del ordenador. El ordenador te informa el numero del intento y la pista si es mayor o menor que el numero que digistaste.
+            
+            ¡Buena suerte!</p>
+        
+    </section>
+
+<body>
+    <label for="guess">  Adivina el numero entre (1 & 10)  </label>
+    <input type="number" id="guess">
+    <button onclick="checkGuess()" > COMPROBAR NUMERO </button>
+    <button onclick="location.reload()" > REINCIAR JUEGO </button>
+    <script src="script.js"></script>
+    <body style="background-color: #93b7dbd9;"></body>
+    <footer class="text-center bg-body-tertiary">
+        <iframe
+            class="shadow-1-strong rounded"
+            src="https://www.youtube.com/embed/vlDzYIIOYmM"
+            title="YouTube video"
+            allowfullscreen
+        ></iframe>
+        <section id="comunidad" class="container my-5">
+            <h2 class="text-center mb-4"> Animate a ver las transmiciones</h2>
+            <p class="text-center">¡No juegues solo! Únete a miles de jugadores como tú, comparte tus logros y participa en eventos exclusivos.</p>
+              <a href="https://twitch.tv" target="_blank" class="btn btn-primary mx-2">Sigue nuestras transmisiones en Twitch</a>
+            </div>
+          </section>
+          <div class="container pt-4">
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a
+                data-mdb-ripple-init
+                class="btn btn-link btn-floating btn-lg text-body m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <!-- Twitter -->
+              <a
+                data-mdb-ripple-init
+                class="btn btn-link btn-floating btn-lg text-body m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a
+                data-mdb-ripple-init
+                class="btn btn-link btn-floating btn-lg text-body m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a
+                data-mdb-ripple-init
+                class="btn btn-link btn-floating btn-lg text-body m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a
+                data-mdb-ripple-init
+                class="btn btn-link btn-floating btn-lg text-body m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+        
+              <!-- Github -->
+              <a
+                data-mdb-ripple-init
+                class="btn btn-link btn-floating btn-lg text-body m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-github"></i
+              ></a>
+            </section>
+          </div>
+        
+          <a class="text-reset fw-bold" href="http://127.0.0.1:5500/index.html"> Aj-Games </a>
+          <div class="text-center p-3" style="background-color: rgba(146, 241, 243, 0.05);">
+            © 2024 Copyright
+        </div>
+      </footer>
+</body> 
+</html>
